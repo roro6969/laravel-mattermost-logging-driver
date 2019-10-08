@@ -1,5 +1,5 @@
 {
-    "name": "dbt/laravel-mattermost-logging-driver",
+    "name": "colbygarland/laravel-mattermost-logging-driver",
     "description": "A log driver for Mattermost",
     "type": "library",
     "license": "MIT",

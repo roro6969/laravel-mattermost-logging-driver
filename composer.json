@@ -26,12 +26,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dbt\\Mattermost\\Logger\\": "src"
+            "colbygarland\\Mattermost\\Logger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dbt\\Tests\\": "tests"
+            "colbygarland\\Tests\\": "tests"
         }
     },
     "scripts": {

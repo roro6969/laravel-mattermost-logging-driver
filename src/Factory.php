@@ -1,12 +1,12 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace colbygarland\Mattermost\Logger;
 
 use Monolog\Logger;
 
 final class Factory
 {
-    /** @var \Dbt\Mattermost\Logger\Mattermost */
+    /** @var \colbygarland\Mattermost\Logger\Mattermost */
     private $mattermost;
 
     public function __construct (Mattermost $mattermost)

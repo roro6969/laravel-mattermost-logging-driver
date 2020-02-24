@@ -1,11 +1,12 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace colbygarland\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Mattermost\Logger\Interfaces\Options;
-use Dbt\Mattermost\Logger\Interfaces\Scribe;
-use Dbt\Mattermost\Logger\Values\Level;
+use colbygarland\Mattermost\Logger\Interfaces\Message;
+use colbygarland\Mattermost\Logger\Interfaces\Options;
+use colbygarland\Mattermost\Logger\Interfaces\Scribe;
+use colbygarland\Mattermost\Logger\Values\Level;
+use Illuminate\Support\Str;
 
 final class DefaultScribe implements Scribe
 {
@@ -18,10 +19,10 @@ final class DefaultScribe implements Scribe
     /** @var ?Exception */
     private $exception;
 
-    /** @var \Dbt\Mattermost\Logger\Interfaces\Options */
+    /** @var \colbygarland\Mattermost\Logger\Interfaces\Options */
     private $options;
 
-    /** @var \Dbt\Mattermost\Logger\Interfaces\Message */
+    /** @var \colbygarland\Mattermost\Logger\Interfaces\Message */
     private $message;
 
     public function __construct(
@@ -90,7 +91,7 @@ final class DefaultScribe implements Scribe
     public function mentions ()
     {
         $mentions = array_map(function ($mention) {
-            return str_start($mention, '@');
+            return Str::start($mention, '@');
         }, $this->options->mentions());
 
         return implode(', ', $mentions);

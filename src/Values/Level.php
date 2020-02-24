@@ -1,6 +1,6 @@
 <?php
 
-namespace Dbt\Mattermost\Logger\Values;
+namespace colbygarland\Mattermost\Logger\Values;
 
 final class Level
 {

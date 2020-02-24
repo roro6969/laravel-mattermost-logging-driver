@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Tests\Worlds;
+namespace colbygarland\Tests\Worlds;
 
-use Dbt\Tests\Worlds\Bits\MakesOptions;
-use Dbt\Tests\Worlds\Bits\MakesRecords;
+use colbygarland\Tests\Worlds\Bits\MakesOptions;
+use colbygarland\Tests\Worlds\Bits\MakesRecords;
 
 trait ScribeTestWorld
 {

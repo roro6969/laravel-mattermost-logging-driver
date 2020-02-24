@@ -1,11 +1,11 @@
 <?php
 
-namespace Dbt\Tests;
+namespace colbygarland\Tests;
 
-use Dbt\Mattermost\Logger\DefaultMessage;
-use Dbt\Mattermost\Logger\DefaultScribe;
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Tests\Worlds\ScribeTestWorld;
+use colbygarland\Mattermost\Logger\DefaultMessage;
+use colbygarland\Mattermost\Logger\DefaultScribe;
+use colbygarland\Mattermost\Logger\Interfaces\Message;
+use colbygarland\Tests\Worlds\ScribeTestWorld;
 use PHPUnit\Framework\TestCase;
 
 class ScribeTest extends TestCase

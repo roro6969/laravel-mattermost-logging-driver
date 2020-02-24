@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Tests\Worlds\Bits;
+namespace colbygarland\Tests\Worlds\Bits;
 
-use Dbt\Mattermost\Logger\DefaultOptions;
-use Dbt\Mattermost\Logger\Interfaces\Options;
+use colbygarland\Mattermost\Logger\DefaultOptions;
+use colbygarland\Mattermost\Logger\Interfaces\Options;
 
 trait MakesOptions
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Dbt\Mattermost\Logger\Interfaces;
+namespace colbygarland\Mattermost\Logger\Interfaces;
 
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use colbygarland\Mattermost\Logger\Values\Format;
+use colbygarland\Mattermost\Logger\Values\Level;
+use colbygarland\Mattermost\Logger\Values\Webhook;
 
 interface Options
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace colbygarland\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Options;
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use colbygarland\Mattermost\Logger\Interfaces\Options;
+use colbygarland\Mattermost\Logger\Values\Format;
+use colbygarland\Mattermost\Logger\Values\Level;
+use colbygarland\Mattermost\Logger\Values\Webhook;
 use Illuminate\Routing\UrlGenerator;
 
 final class DefaultOptions implements Options
@@ -37,10 +37,10 @@ final class DefaultOptions implements Options
     /** @var string|null */
     private $iconUrl;
 
-    /** @var \Dbt\Mattermost\Logger\Values\Format */
+    /** @var \colbygarland\Mattermost\Logger\Values\Format */
     private $titleFormat;
 
-    /** @var \Dbt\Mattermost\Logger\Values\Format */
+    /** @var \colbygarland\Mattermost\Logger\Values\Format */
     private $titleMentionFormat;
 
     public function __construct (

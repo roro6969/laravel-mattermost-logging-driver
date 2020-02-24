@@ -1,10 +1,10 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace colbygarland\Mattermost\Logger;
 
 use Closure;
 use Coduo\ToString\StringConverter;
-use Dbt\Mattermost\Logger\Interfaces\Message;
+use colbygarland\Mattermost\Logger\Interfaces\Message;
 use Exception;
 use ThibaudDauce\Mattermost\Attachment;
 use ThibaudDauce\Mattermost\Message as MattermostMessage;

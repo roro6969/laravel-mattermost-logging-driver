@@ -1,6 +1,6 @@
 <?php
 
-namespace Dbt\Tests\Worlds\Bits;
+namespace colbygarland\Tests\Worlds\Bits;
 
 trait MakesRecords
 {

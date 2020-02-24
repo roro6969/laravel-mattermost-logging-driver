@@ -1,12 +1,12 @@
 <?php
 
-namespace Dbt\Tests;
+namespace colbygarland\Tests;
 
-use Dbt\Mattermost\Logger\DefaultOptions;
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
-use Dbt\Tests\Worlds\OptionsTestWorld;
+use colbygarland\Mattermost\Logger\DefaultOptions;
+use colbygarland\Mattermost\Logger\Values\Format;
+use colbygarland\Mattermost\Logger\Values\Level;
+use colbygarland\Mattermost\Logger\Values\Webhook;
+use colbygarland\Tests\Worlds\OptionsTestWorld;
 use PHPUnit\Framework\TestCase;
 
 class OptionsTest extends TestCase

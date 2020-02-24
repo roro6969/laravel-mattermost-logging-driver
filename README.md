@@ -16,7 +16,7 @@ Add the new driver in your `config/logging.php`:
 ```php
 'mattermost' => [
     'driver' => 'custom',
-    'via' => Dbt\Mattermost\Logger\Factory::class,
+    'via' => colbygarland\Mattermost\Logger\Factory::class,
     'webhook' => env('MATTERMOST_WEBHOOK'),
 ],
 ```

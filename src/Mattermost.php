@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace colbygarland\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use colbygarland\Mattermost\Logger\Interfaces\Message;
+use colbygarland\Mattermost\Logger\Values\Webhook;
 use GuzzleHttp\Client;
 
 final class Mattermost
